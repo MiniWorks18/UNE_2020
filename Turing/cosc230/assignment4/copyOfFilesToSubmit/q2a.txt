@@ -1,0 +1,17 @@
+Searching for an item takes at most the height of the tree (root starts at 0). So the complexity is at most H.
+
+Big O notation:
+
+	O(H)
+
+	where H is the height of the tree, counted from root = 0.
+
+
+Alternatively, using n where n is the number of nodes:
+
+	The height of a balanced search tree is log(n), thus:
+
+	O(log(n))
+	
+
+

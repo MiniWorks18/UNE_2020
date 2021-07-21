@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588569731163.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FA71C39F",
+    "lastKnownWriteTime" : 8028074750225051768,
+    "last_content_update" : 1588569731163,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "92C550DF",
+        "caption" : "heart.df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=heart.df&cache_key=92C550DF",
+        "displayedObservations" : 13,
+        "environment" : "",
+        "expression" : "heart.df",
+        "object" : "heart.df",
+        "preview" : 0,
+        "totalObservations" : 13,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

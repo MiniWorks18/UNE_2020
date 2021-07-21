@@ -1,0 +1,23 @@
+Portfolio - COSC220 - 2000 words
+
+* Personal contribution
+	Shared contribution between each team member, no real main team leader, all worked together.
+	Worked on various aspects (item objects, base design, base implmentation, item placeability)
+	My role was never specifically defined, but in hindsight it was as a developer and designer. Give gitlab commit hash examples of various places I contributed in development and design.
+
+
+* Reflection
+	* What worked well?:
+	We each had our own skill sets, so it worked well to have people doing what they're good at.
+
+	* What in your team didn't work well?
+	We didn't see eye-to-eye right off the bat regarding what we should contribute as a team and what would be feasible. We under-estimated the time required to do what we were trying to do, especially considering how much time we each had between work and other units.
+	
+	* What did you fin dhardest about the challenge?
+	It was hard to get things done for various reasons: lack of understand, lack of experience, lack of communication, lack of leadership. But by far, lack of experience.
+	
+	* What are the three things you consider most important for future projects?
+		- Dedicated meetings either via voice chat or in real life (like the scrum work architecture), delegate jobs etc.
+		- Leadership, someone to turn to who has more experience and has a better idea.
+		- Inter-group communication, the amount of groups there were was challenging, it was hard to work with another group and be aware of what groups are doing what work. It was easy to step on toes and difficult to see what people's code was doing, why it was doing it, and how to use it.
+	

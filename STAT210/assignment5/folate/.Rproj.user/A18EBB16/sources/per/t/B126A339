@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590123442673.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3317039612",
+    "id" : "B126A339",
+    "lastKnownWriteTime" : 1590385941,
+    "last_content_update" : 1590385941952,
+    "path" : "~/UNE/2020/STAT210/assignment5/folate/script.R",
+    "project_path" : "script.R",
+    "properties" : {
+        "cursorPosition" : "12,12",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

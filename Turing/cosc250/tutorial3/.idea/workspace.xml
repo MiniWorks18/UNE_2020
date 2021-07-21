@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d438994b-f728-40c2-b26d-3b8bb14138ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../tutorial_sudoku_sensei/src/main/scala/cosc250/firststeps/StepOne.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial_sudoku_sensei/src/main/scala/cosc250/firststeps/StepOne.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/..">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../tutorial_sudoku_sensei" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZEyKhKntG8ujyQ4IZGUHtFn7Py" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="tutorial3" />
+              <option name="path" value="$PROJECT_DIR$/.." />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="tutorial3 [file:/home/tmcdon26/cosc250/tutorial3/]" />
+                <option name="path" value="$PROJECT_DIR$/.." />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="tutorial3-build" />
+                <option name="path" value="$PROJECT_DIR$/../project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../project/build.properties" value="1244562550" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../tutorial1/firststeps" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tutorial2/tailrecursivemadness" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d438994b-f728-40c2-b26d-3b8bb14138ad" name="Default Changelist" comment="" />
+      <created>1584418486096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584418486096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="200" y="190" width="784" height="624" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1584429421044">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="200" y="190" width="784" height="624" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.27.1920.990@0.27.1920.990" timestamp="1584429421044" />
+    <state x="735" y="343" width="454" height="266" key="NewModule_or_Project.wizard" timestamp="1585635140354">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="735" y="343" width="454" height="266" key="NewModule_or_Project.wizard/0.27.1920.990@0.27.1920.990" timestamp="1585635140354" />
+    <state x="335" y="154" width="1022" height="734" key="SettingsEditor" timestamp="1585636054364">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="335" y="154" width="1022" height="734" key="SettingsEditor/0.27.1920.990@0.27.1920.990" timestamp="1585636054364" />
+    <state x="626" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584427698627">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="626" y="185" key="com.intellij.ide.util.TipDialog/0.27.1920.990@0.27.1920.990" timestamp="1584427698627" />
+  </component>
+</project>

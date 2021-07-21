@@ -1,0 +1,48 @@
+select fname, lname from employee as e join works_on as w on e.ssn = w.essn
+	join project as p on w.pno = p.pnumber
+	where pname != 'ProductZ';
+
+select p.pname from employee as e
+	join works_on as w on w.essn = ssn 
+	join project as p on p.pnumber = w.pno 
+	where p.pnumber = any (select pnumber from project as p 
+	join works_on as w on w.pno = p.pnumber 
+	join employee as e on e.ssn = w.essn
+	where e.fname = 'John' and e.lname = 'Smith') group by p.pname;
+
+select fname, lname from employee as e
+	join works_on as w on w.essn = ssn
+	join project as p on p.pnumber = w.pno
+	where p.pname = 'ProductX';
+
+-- Count employess per project
+select p.pname, count(*) from employee as e
+	join works_on as w on w.essn = ssn
+	join project as p on p.pnumber = w.pno
+	group by p.pnumber;
+-- or
+select count(*) from works_on as w
+	group by w.pno;
+
+-- Count projects per employee
+select e.fname, count(*) from project as p
+	join works_on as w on w.pno = pnumber
+	join employee as e on e.ssn = w.essn
+	group by e.ssn order by count desc;
+-- or
+select count(*) from works_on as w
+	group by w.essn;
+
+-- Only list employees working on 2 or more projects
+select count(e.fname) from employee as e
+	having (select count(*) from project as p
+	join works_on as w on w.pno = pnumber
+	join employee as e on e.ssn = w.essn
+	group by e.ssn).count > 2;
+
+
+-- List all employees that only work on one project, not working.
+select e.fname from employee as e
+	having (select count(*), e.fname from works_on as w
+		group by w.essn).count < 2;
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8519804-28e8-4c77-8431-da1f94631fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tutorial_units_of_measurement/src/main/scala/cosc250/tutorial4/PartOne.scala" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_units_of_measurement/src/main/scala/cosc250/tutorial4/PartOne.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tutorial_units_of_measurement" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZsmQzBgnTof2mFRDuK1J10wYpH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../assignment1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tutorial1/firststeps" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tutorial2/tailrecursivemadness" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8519804-28e8-4c77-8431-da1f94631fec" name="Default Changelist" comment="" />
+      <created>1585636163584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585636163584</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="738" y="393" width="447" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1585636261680">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="738" y="393" width="447" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.27.1920.990@0.27.1920.990" timestamp="1585636261680" />
+    <state x="806" y="366" width="311" height="220" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585636271841">
+      <screen x="0" y="27" width="1920" height="990" />
+    </state>
+    <state x="806" y="366" width="311" height="220" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.990@0.27.1920.990" timestamp="1585636271840" />
+  </component>
+</project>

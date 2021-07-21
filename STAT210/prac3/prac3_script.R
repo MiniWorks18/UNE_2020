@@ -1,0 +1,47 @@
+options(digits=3, show.signif.stars = F)
+conc <- c(rep(seq(from=0.5,to=3,by=0.5),2))
+skin <- c(13.9,14.08,13.75,13.32,13.45,13.59,13.81,13.99,13.60,13.39,13.53,13.64)
+plot(skin~conc)
+## My response:
+## Looks like a negative correlation between skin and conc, meaning, the higher the
+## concentration of vaccine, the lower the skin response.
+## Their response:
+## Figure1 suggests that neither a linear nor a quadratic model would be appropriate
+## to describe the relationship between skin response and vaccine concentration
+## Also note that, with only 6 ditinct values for the predicotr, the maximum degree
+## that can be fitted is a fifth degree polynomial (6-1=5).
+
+# Create dataframe
+rat.df <- data.frame(conc,skin)
+
+mod.3 <- lm(skin~conc + I(conc^2) + I(conc^3))
+anova(mod.3)
+## We'll continue to add our terms until a non-significant result is obtained
+mod.4 <- update(mod.3, .~. + I(conc^4))
+anova(mod.4)
+## After adding the conc^4 we still have a significant p-value of 0.00382
+mod.5 <- update(mod.4, .~. + I(conc^5))
+anova(mod.5)
+## Now after adding conc^5 we have a non-significant term (p-value of beta5 = 0.37)
+## It's important to check the confidence intervals as well. There's a coefficients 
+## command which shows CI as well.
+## Now we check the diagnostics for the 4th degree polynomial regression model.
+
+# Setting the plot dimensions
+par(mfrow=c(1,2))
+plot(mod.4, which=1:2, add.smooth=FALSE)
+## Checking the residuals plots do not indicate a problem with any of the model 
+## assumptions. Residuals vs fitted shows a random scatter around 0 (appart from 
+## observation 8), the QQ plot is approximately linear, suggesting that the assumption
+## of normality is valid. The final model is given by:
+## skin = 11.79 + 7.08conc - 7.20conc^2 + 2.73conc^3 -0.35conc^4
+
+## We can plot this model using the following ggplot command
+library(ggplot2)
+ggplot(data=rat.df, aes(x=conc, y=skin)) + geom_point(pch=17, color="blue", size=2)+
+    geom_smooth(method = "lm", formula = y ~ poly(x, 4), color="red", linetype=2)+
+    labs(title="4th degree polynomial with 95% confidence bands", x="concentration(ml/L)",
+        y="skin (mm)")
+## Looking at this model we see that the maximum skin response of between 14-14.2mm is
+## predicted to occur at a concentration of approx. 0.8ml/L and a minimum skin response
+## of between 13.3-13.5mm at 2ml/L

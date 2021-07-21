@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588665019937.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9E949624",
+    "lastKnownWriteTime" : 1588664956,
+    "last_content_update" : 1588665019937,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "305397D2",
+        "caption" : "geese",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=geese&cache_key=305397D2",
+        "displayedObservations" : 464,
+        "environment" : "",
+        "expression" : "geese",
+        "object" : "geese",
+        "preview" : 0,
+        "totalObservations" : 464,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

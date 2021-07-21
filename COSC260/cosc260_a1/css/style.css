@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* Header formatting */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "bree serif";
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:  goldenrod;
+    font-style: italic;
+}
+
+/* Styling the page based on vertical position */
+#wrapper {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+#banner {
+    background-color: #39507a;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#banner h1 {
+    color: white;
+    font-family: serif;
+    padding-top: 50px;
+    font-size: 50px;    
+}
+
+#banner h2 {
+    color: lightgrey;
+    font-family: serif;
+    font-size: 30px;
+}
+
+/* Set both columns to have padding */
+.col {
+    padding: 10px 20px;
+}
+
+#col1 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#profile_img {
+    width: 75%;
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 15px;
+    
+}
+
+#col1 h2 {
+    margin-top: 40px;
+    color: #39507a;
+}
+
+#col1 h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Style for information tiles */
+.tile {
+    background-color: #4264a1;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px #39507a;
+    color: white;
+}
+
+#links li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#links a {
+    color: white;
+}
+
+/* Pseudo classes for the links */
+#links a:hover {
+    color: lightgray;
+}
+
+#links a:visited {
+    color: darkseagreen;
+}
+
+#w3valid {
+    position: absolute;
+    top:0;
+    right:0;
+    
+}
+
+
+/* 
+Styling for when page is more than or equal to 600 pixels wide. Reformats
+to 2 columns.
+*/
+@media (min-width: 600px) {
+    .col {
+        float: left;
+        margin-right: 20px;
+    }
+    #col1 {
+        width: 40%;
+        clear: left;
+        margin-left: -20px;
+        text-align: right;
+    }
+    #col2 {
+        width: 60%;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    #wrapper {
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590710344277.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "965643613",
+    "id" : "A34679B4",
+    "lastKnownWriteTime" : 1590729276,
+    "last_content_update" : 1590729276583,
+    "path" : "~/UNE/2020/STAT210/prac7/script.r",
+    "project_path" : "script.r",
+    "properties" : {
+        "cursorPosition" : "22,36",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

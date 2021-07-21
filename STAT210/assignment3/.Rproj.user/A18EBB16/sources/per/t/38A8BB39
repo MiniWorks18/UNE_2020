@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585889066479.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "38A8BB39",
+    "lastKnownWriteTime" : 1658834499752,
+    "last_content_update" : 1585889066479,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "6c9036fd38da45e5b6d8ce132632aaca",
+        "name" : "mutli_test2",
+        "title" : "mutli_test2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

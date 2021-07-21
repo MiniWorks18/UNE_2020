@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590710538791.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B062790A",
+    "lastKnownWriteTime" : 1590710347,
+    "last_content_update" : 1590710538791,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "9478527F",
+        "caption" : "rats",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=rats&cache_key=9478527F",
+        "displayedObservations" : "61",
+        "environment" : "",
+        "expression" : "rats",
+        "object" : "rats",
+        "preview" : "0",
+        "totalObservations" : "61",
+        "variables" : "2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

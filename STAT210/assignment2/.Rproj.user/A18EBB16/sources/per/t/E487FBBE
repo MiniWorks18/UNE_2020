@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1615504031239.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1384752278",
+    "id" : "E487FBBE",
+    "lastKnownWriteTime" : 1615526855,
+    "last_content_update" : 1615526855,
+    "path" : "~/UNE/2020/STAT210/assignment2/.Rhistory",
+    "project_path" : ".Rhistory",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_history"
+}

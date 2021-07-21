@@ -1,0 +1,14 @@
+This is a program designed to calculate a division mathematical expression.
+It accepts single digits as numbers, one divide character (/), numerous plus (+) and multiply (*) characters.
+
+Author: Tully McDonald (tmcdon26@myune.edu.au)
+
+Written for COSC240 Assignment 4 (University of New England)
+
+
+Examples: 
+Input: 1/4
+Output: 0.25
+
+Input: 3+6*6/4+3*6
+Output: 1.77

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588569537489.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2495092834",
+    "id" : "51A9F77E",
+    "lastKnownWriteTime" : 1588569545,
+    "last_content_update" : 1588569545066,
+    "path" : "~/UNE/2020/STAT210/assignment4/heart-attack.txt",
+    "project_path" : "heart-attack.txt",
+    "properties" : {
+        "cursorPosition" : "13,12",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#col_left {
+    background-color: lightblue;
+}
+
+#col_mid {
+    background-color: lightgreen;
+}
+
+#col_right {
+    background-color: lightgray;
+}
+
+#wrapper {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.column {
+    float: left;
+    margin: 10px;
+    width: 320px;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+    width: 610px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: 0;
+}

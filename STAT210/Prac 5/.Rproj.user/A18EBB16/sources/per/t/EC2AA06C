@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588297823975.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3181345192",
+    "id" : "EC2AA06C",
+    "lastKnownWriteTime" : 1588300027,
+    "last_content_update" : 1588300027990,
+    "path" : "~/UNE/2020/STAT210/Prac 5/prac5Q2.r",
+    "project_path" : "prac5Q2.r",
+    "properties" : {
+        "cursorPosition" : "62,60",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

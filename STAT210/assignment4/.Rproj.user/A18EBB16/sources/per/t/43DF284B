@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588569606518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4097313559",
+    "id" : "43DF284B",
+    "lastKnownWriteTime" : 1588916539,
+    "last_content_update" : 1588916539155,
+    "path" : "~/UNE/2020/STAT210/assignment4/script.r",
+    "project_path" : "script.r",
+    "properties" : {
+        "cursorPosition" : "17,36",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588568699703.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E0ACAA97",
+    "lastKnownWriteTime" : 2314861393472665401,
+    "last_content_update" : 1588568699703,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "1e681946b6784f0195dfd4d9c91878b1",
+        "name" : "gre.glm",
+        "title" : "gre.glm"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

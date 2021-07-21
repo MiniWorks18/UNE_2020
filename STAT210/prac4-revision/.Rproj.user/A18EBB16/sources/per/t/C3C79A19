@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591240412580.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2437369211",
+    "id" : "C3C79A19",
+    "lastKnownWriteTime" : 1591249933,
+    "last_content_update" : 1591249933800,
+    "path" : "~/UNE/2020/STAT210/prac4-revision/samara.R",
+    "project_path" : "samara.R",
+    "properties" : {
+        "cursorPosition" : "61,37",
+        "scrollLine" : "46"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

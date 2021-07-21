@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588660839525.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "936E4BAE",
+    "lastKnownWriteTime" : 7809652367386091555,
+    "last_content_update" : 1588660839525,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "632aaabc60f642fa8b9a18dfe4d3f9d9",
+        "name" : "preds",
+        "title" : "preds"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

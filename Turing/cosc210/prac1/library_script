@@ -1,0 +1,69 @@
+/*done*/
+CREATE TABLE publisher (
+  name      varchar(100) NOT NULL primary key,
+  address   varchar(100),
+  phone     integer
+);
+
+/*done*/
+CREATE TABLE book (
+  book_id        integer primary key NOT NULL,
+  title          varchar(100) NOT NULL,
+  publisher_name varchar(100),
+  foreign key (publisher_name) references publisher(name)
+	ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+
+/*done*/
+CREATE TABLE book_authors (
+  book_id        integer NOT NULL,
+  author_name    varchar(100) primary key NOT NULL,
+  foreign key (book_id) references book(book_id)
+	ON DELETE SET NULL ON UPDATE CASCADE
+);	
+
+/*done*/
+CREATE TABLE borrower (
+  card_no    integer primary key NOT NULL,
+  name       varchar(20) NOT NULL,
+  address    varchar(100),
+  phone      integer
+);
+
+/*done*/
+CREATE TABLE library_branch (
+  branch_id     integer primary key NOT NULL,
+  branch_name   varchar(25),
+  address       varchar(25)
+);
+
+
+/*done*/
+CREATE TABLE book_copies (
+  book_id        integer primary key NOT NULL,
+  branch_id      integer NOT NULL,
+  no_of_copies   integer,
+  foreign key (book_id) references book(book_id)
+	ON DELETE SET NULL ON UPDATE CASCADE,
+  foreign key (branch_id) references library_branch(branch_id)
+	ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+
+/*done*/
+CREATE TABLE book_loans (
+  book_id         integer primary key NOT NULL,
+  branch_id       integer NOT NULL,
+  card_no         integer NOT NULL,
+  date_out        varchar(25),
+  due_date        varchar(25),
+  foreign key (book_id) references book(book_id)
+	ON DELETE SET NULL ON UPDATE CASCADE,
+  foreign key (branch_id) references library_branch(branch_id)
+	ON DELETE SET NULL ON UPDATE CASCADE,
+  foreign key (card_no) references borrower(card_no)
+	ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+

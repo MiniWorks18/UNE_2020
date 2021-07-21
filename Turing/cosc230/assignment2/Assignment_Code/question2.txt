@@ -1,0 +1,36 @@
+a)
+  void SLList::add_to_head(int a)
+  {
+  	head = new SLLNode(a, head);
+  	if (tail == 0)
+  		tail = head;
+  }
+
+  Worst case, our code assigns head to a new object,
+  then assigns tail equal to head. This is worst case constant.
+
+
+  bool SLList::is_in_list(int a)
+  {
+  	SLLNode *p;
+  	for (p = head; p != 0 && !(p->info == a); p = p->next);
+  	return p != 0;
+  }
+
+  Worst case, our list does not contain the element we're looking for and each
+  element is checked. This would be worst case O(n).
+  Both of these together would be n+1 or O(n).
+
+
+b) Inserting into a dynamic array is worst case O(n) due to the possibility of
+   the array being full and having to create a new bigger array and copying
+   all elements from the old array to the new array. Then finding an element
+   in an array using an index is always worst case O(1).
+   Both of these together would be n+1 or O(n).
+
+c) Assuming these are separate situations. I would choose a linked list as a
+   data structure that is often added to, this is always constant time complexity.
+   For data that is often looked up, I would use an array, this is also always
+   constant time complexity.
+   However, I would also consider a Hash Table if we needed both dynamic storage
+   and efficient lookup time.
